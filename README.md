@@ -37,7 +37,7 @@ There are many C++ math libraries.
 
 - **Trivial integration**. Whole code consists of a single header file [mml.h](https://github.com/zvanjak/MML/blob/master/include/MML.h). No library, no subproject, no dependencies, no complex build system. The code is written in standard C++20.
 
-- **Serious testing and focus on precision**. Our code is heavily [unit-tested](https://github.com/nlohmann/json/tree/develop/tests/src) and covers [100%](https://coveralls.io/r/nlohmann/json) of the code, including all exceptional behavior. Furthermore, we checked with [Valgrind](https://valgrind.org) and the [Clang Sanitizers](https://clang.llvm.org/docs/index.html) that there are no memory leaks. [Google OSS-Fuzz](https://github.com/google/oss-fuzz/tree/master/projects/json) additionally runs fuzz tests against all parsers 24/7, effectively executing billions of tests so far. To maintain high quality, the project is following the [Core Infrastructure Initiative (CII) best practices](https://bestpractices.coreinfrastructure.org/projects/289).
+- **Serious testing and focus on precision**. Aim is code coverage of 100%
 
 
 ## Basic facts
