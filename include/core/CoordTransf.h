@@ -17,8 +17,6 @@
 
 namespace MML
 {
-	// ovdje dodati translational, rotational, galilean, lorentzian transf
-	// SVE su to transformacije koordinata
 	template<typename VectorFrom, typename VectorTo, int N>
 	class CoordTransf : public virtual ICoordTransf<VectorFrom, VectorTo, N>
 	{
